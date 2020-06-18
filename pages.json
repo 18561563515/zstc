@@ -1,0 +1,182 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/appointment/appointment",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/msg/msg",
+            "style" : {
+							"navigationStyle": "custom",
+							"enablePullDownRefresh": true
+						}
+        }
+        ,{
+            "path" : "pages/study/study",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/customer/customer",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/edit/edit",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/chengjiao/chengjiao",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/yuyue/yuyue",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/yixiang/yixiang",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/service/service",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/dingdan/dingdan",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/set/set",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/business/business",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/makecard/makecard",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/cardsucc/cardsucc",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/makeposter/makeposter",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/hetong/hetong",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/customerdetail/customerdetail",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+        ,{
+            "path" : "pages/postersucc/postersucc",
+            "style" : {
+							"navigationStyle": "custom"
+						}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "证圣天成",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+
+	},
+	"tabBar": {
+		"color": "#9A9A9A",
+		"selectedColor": "#337DFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/icon/icon_BottomTabBar_1.png",
+			"selectedIconPath": "static/icon/icon_BottomTabBar_1Active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/apply/apply",
+			"iconPath": "static/icon/icon_BottomTabBar_2.png",
+			"selectedIconPath": "static/icon/icon_BottomTabBar_2Active.png",
+			"text": "预约申请"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/icon/icon_BottomTabBar_3.png",
+			"selectedIconPath": "static/icon/icon_BottomTabBar_3Active.png",
+			"text": "我的"
+		}]
+	}
+}
